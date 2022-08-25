@@ -4,7 +4,7 @@ pipeline {
     stage('build test') {
       steps {
         echo 'testing message'
-        sh 'git clone https://github.com/tada1969/test101.git'
+        sh 'git pull https://github.com/tada1969/test101.git'
       }
     }
 
